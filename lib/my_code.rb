@@ -3,43 +3,43 @@ def map_to_negativize(array)
   array1 = []
   count = 0
   while count < array.size do
-    new_array.push(array[count] * -1)
+    array1.push(array[count] * -1)
     count += 1
 end
-new_array
+array1
 end
 
 
 
 def map_to_no_change(array)
-  new_array = []
+  array1 = []
   count = 0
   while count < array.size do
-    new_array.push(array[count])
+    array1.push(array[count])
     count += 1
 end
-new_array
+array1
 end
 
 
 def map_to_double(array)
-  new_array = []
+  array1 = []
   count = 0
   while count < array.size do
-    new_array.push(array[count] * 2)
+    array1.push(array[count] * 2)
     count += 1
 end
-new_array
+array1
 end
 
 def map_to_square(array)
-  new_array = []
+  array1 = []
   count = 0
   while count < array.size do
-    new_array.push(array[count] ** 2)
+    array1.push(array[count] ** 2)
     count += 1
 end
-new_array
+array1
 end
 
 def reduce_to_total(array, starting_point=0)
